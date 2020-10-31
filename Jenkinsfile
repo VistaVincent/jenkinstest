@@ -8,7 +8,7 @@ pipeline {
   stages {
     stage('Cloning Git') {
       steps {
-        git 'https://github.com/VistaVincent/jenkinstest.git'
+        git 'https://github.com/VistaVincent/jenkinstest'
       }
     }
     stage('Building image') {
